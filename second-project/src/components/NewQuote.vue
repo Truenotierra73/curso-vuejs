@@ -1,11 +1,11 @@
 <template>
-    <div class="row">
+    <div class="row justify-content-center">
         <form>
-            <div class="col-sm-8 col-sm-offset-2 col-xs-12 col-md-6 col-md-offset-3 form-group">
+            <div class="col col-xl-12 form-group">
                 <label for="newQuote">Quote</label>
                 <textarea id="newQuote" class="form-control" rows="3" placeholder="Write a quote here..." v-model="quote"></textarea>
             </div>
-            <div class="col-sm-8 col-sm-offset-2 col-xs-12 col-md-6 col-md-offset-3 form-group">
+            <div class="col col-xl-12 form-group">
                 <button type="button" class="btn btn-primary" @click.prevent="createQuote">Add Quote</button>
             </div>
         </form>

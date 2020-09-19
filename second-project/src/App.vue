@@ -3,7 +3,7 @@
         <app-quote-header :quotesCount="this.quotes.length" :maxQuotes="maxQuotes"></app-quote-header>
         <app-new-quote @newQuoteCreated="newQuote(quote = $event)"></app-new-quote>
         <app-quote-grid :quotes="quotes" @quoteDeleted="deleteQuote(indexQuote = $event)"></app-quote-grid>
-        <div class="row">
+        <div class="row mt-2">
             <div class="col-sm-12">
                 <div class="alert alert-info text-center" role="alert">
                     <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Click on an quote to remove it

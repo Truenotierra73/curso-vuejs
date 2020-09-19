@@ -1,11 +1,11 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xl-12">
                 <br>
-                <button class="btn btn-primary" @click="selectedComponent = 'appBlue'">Load Blue Template</button>
-                <button class="btn btn-success" @click="selectedComponent = 'appGreen'">Load Green Template</button>
-                <button class="btn btn-danger" @click="selectedComponent = 'appRed'">Load Red Template</button>
+                <button class="btn btn-primary m-2" @click="selectedComponent = 'appBlue'">Load Blue Template</button>
+                <button m-2 class="btn btn-success m-2" @click="selectedComponent = 'appGreen'">Load Green Template</button>
+                <button m-2 class="btn btn-danger m-2" @click="selectedComponent = 'appRed'">Load Red Template</button>
                 <hr>
                 <!--<app-blue></app-blue>
                 <app-green></app-green>
