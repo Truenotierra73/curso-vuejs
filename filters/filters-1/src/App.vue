@@ -11,7 +11,7 @@
                 <input id="filterText" class="form-control" type="text" v-model="filterText" placeholder="Type a fruit...">
                 <br>
                 <ul>
-                    <li v-for="fruit in filteredFruits">{{ fruit }}</li>
+                    <li :key="fruit" v-for="fruit in filteredFruits">{{ fruit }}</li>
                 </ul>
                 <hr>
                 <app-list></app-list>
